@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Campus Events</h1>
+    <p class="subtitle">Add and manage simple campus events.</p>
+
+    <section class="card">
+      <h2>Add an Event</h2>
+      <form id="eventForm">
+        <label for="eventName">Event name</label>
+        <input id="eventName" type="text" placeholder="Example: Coding Workshop" required>
+
+        <label for="eventDate">Date</label>
+        <input id="eventDate" type="date" required>
+
+        <label for="eventPlace">Place</label>
+        <input id="eventPlace" type="text" placeholder="Example: Seminar Hall" required>
+
+        <button type="submit">Add Event</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>All Events</h2>
+      <label for="searchInput">Search events</label>
+      <input id="searchInput" type="search" placeholder="Search by name or place">
+      <p id="message" class="message" aria-live="polite"></p>
+      <div id="eventList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

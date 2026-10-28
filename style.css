@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  background: #dff7ff;
+  color: #173b70;
+}
+
+.container {
+  width: min(680px, 90%);
+  margin: 28px auto;
+}
+
+h1 {
+  margin-bottom: 3px;
+  color: #173b70;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #087f8c;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #2872a9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 16px;
+  padding: 19px;
+  background: #ffffff;
+  border: 3px solid #35bfc1;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+  color: #2666a3;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  border: 2px solid #8bd6da;
+  font-size: 14px;
+  color: #173b70;
+  background: #f7feff;
+}
+
+button {
+  margin-top: 16px;
+  padding: 9px 15px;
+  border: 0;
+  background: #173b70;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #173b70;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 4px;
+  border-bottom: 2px dashed #9adce0;
+}
+
+.event:last-child {
+  border-bottom: 0;
+}
+
+.event p {
+  margin: 5px 0 0;
+  color: #277b91;
+  font-size: 14px;
+}
+
+.remove-button {
+  margin: 0;
+  background: #087f8c;
+}
+
+.remove-button:hover {
+  background: #075e5a;
+}
+
+.message {
+  color: #173b70;
+  font-weight: bold;
+}
